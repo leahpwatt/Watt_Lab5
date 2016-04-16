@@ -1,6 +1,6 @@
 // This is my Lab 5 work.
 
-// Part 1:
+// Part 1
 
  var temp = 32;
  var celsius = (temp - 32) * 5/9;
@@ -8,7 +8,7 @@
  console.log(celsius);
 
 
-// Part 2:
+// Part 2
 
  var temp = 32;
  var unit = "F";
