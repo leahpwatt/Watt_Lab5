@@ -1,34 +1,32 @@
-// This is what I did.
+// This is my Lab 5 work.
 
-var temp = 100;
-var celsius = (temp-32) * 5/9;
-console.log(celsius);
+// Part 1:
 
+ var temp = 32;
+ var celsius = (temp - 32) * 5/9;
 
-var temp = 0;
-var fahrenheit = (temp * 1.8) + 32;
-console.log(fahrenheit);
+ console.log(celsius);
 
 
-// This is what James taught us.
+// Part 2:
 
-var temp = 0;
-var convertedTemp = (temp-32) 8 5/9;
-console.log(convertedTemp);
+ var temp = 32;
+ var unit = "F";
+
+ if (unit === "F") {
+ 	console.log ("The temperature in celsius is " + (temp - 32) * 5/9);
+ }
+ else {
+ 	console.log ("The temperature in fahrenheit is " + (temp * 1.8) + 32);
+ }
 
 
-var temp = 0;
-var unit = "F";
-var convertedTemp;
+ var temp = 0;
+ var unit = "C";
 
-if(unit === F){
-	convertedTemp = (temp-32) 8 5/9;
-}	else {
-	convertedTemp = (temp * 9/5 - 32)
-}
-
-(temp-32) 8 5/9; // F to C
-
-(temp * 9/5 - 32) // C to F 
-
-console.log(convertedTemp);
+ if (unit === "F") {
+ 	console.log ("The temperature in celsius is " + (temp - 32) * 5/9);
+ }
+ else {
+ 	console.log ("The temperature in fahrenheit is " + (temp * 1.8) + 32);
+ }
